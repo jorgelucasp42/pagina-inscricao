@@ -3,39 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Inscrição - Inova Maranhão</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <div class="container">
-        <div class="form-container">
+        <div class="container-formulario">
             <form action="#" method="POST">
                 <h1>Inscreva-se</h1>
                 <input type="text" placeholder="Nome Completo" required>
                 <input type="email" placeholder="E-mail" required>
                 <input type="text" placeholder="CPF" required>
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+                <input type="text" placeholder="Formação Educacional" required>
                 <input type="tel" placeholder="Telefone" required>
                 <input type="text" placeholder="Endereço" required>
                 <input type="text" placeholder="Cidade" required>
-                <div class="file-upload">
+                <div class="upload-arquivo">
                     <label>Documento de Identidade</label>
                     <button type="button">Selecionar</button>
                     <input type="file" required>
                 </div>
-                <div class="file-upload">
+                <div class="upload-arquivo">
                     <label>Comprovante de Residência</label>
                     <button type="button">Selecionar</button>
                     <input type="file" required>
                 </div>
-                <div class="buttons">
+                <div class="botoes">
                     <button type="reset">Cancelar</button>
                     <button type="submit">Enviar</button>
                 </div>
                 <p>*Atenção: Todos os dados acima são obrigatórios</p>
             </form>
         </div>
-        <div class="info-panel">
+        <div class="painel-trilhas">
             <img src="imagem-background.png" alt="Trilhas Inova Maranhão">
         </div>
     </div>
 </body>
+</html>
+
 </html>

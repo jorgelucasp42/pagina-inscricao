@@ -9,7 +9,7 @@ body, html {
     height: 100vh;
 }
 
-.form-container {
+.container-formulario {
     flex-grow: 1;
     background: #fff;
     padding: 40px;
@@ -18,7 +18,7 @@ body, html {
     align-items: center;
 }
 
-.info-panel {
+.painel-informativo {
     width: 40%;
     background: url('imagem-background.png') no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ button {
     border-radius: 5px;
 }
 
-.file-upload {
+.upload-arquivo {
     background: #f1f1f1;
     padding: 10px;
     border-radius: 5px;
@@ -52,7 +52,7 @@ label {
     display: block;
 }
 
-.buttons {
+.botoes {
     display: flex;
     justify-content: space-between;
 }
